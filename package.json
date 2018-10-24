@@ -1,0 +1,28 @@
+{
+  "name": "react-presentation-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node ./scripts/start.js",
+    "build": "node ./scripts/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisgouldstone/react-presentation-demo.git"
+  },
+  "engines": {
+    "node": "8.12.0"
+  },
+  "author": "",
+  "license": "MIT",
+  "homepage": "https://github.com/chrisgouldstone/react-presentation-demo#readme",
+  "dependencies": {
+    "react": "16.5.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "webpack": "4.22.0",
+    "webpack-dev-server": "3.1.10"
+  }
+}
