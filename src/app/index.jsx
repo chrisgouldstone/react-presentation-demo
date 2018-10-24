@@ -1,13 +1,10 @@
 import React from 'react';
 import { render } from 'react-dom';
 
-let myName = "Christopher";
+import App from './App.jsx';
 
-let element = (
-    <h1>Hello {myName}</h1> 
-)
 
 render(
-    element,
+    <App/>,
     document.getElementById('root')
 );
